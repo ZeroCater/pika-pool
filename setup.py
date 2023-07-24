@@ -20,7 +20,7 @@ setuptools.setup(
     include_package_data=True,
     platforms='any',
     install_requires=[
-        'pika >=0.9,<=0.13.1',
+        'pika >=0.9,<1.3.2',
     ],
     extras_require={
         'tests': [
